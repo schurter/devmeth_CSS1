@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* STUDENTS, PUT YOUR STYLES HERE */
+.item_1_box {
+background-color:#090;
+}
+
+.item_2_box {
+width: 50%;
+}
+
+.item_3_box {
+height: 1.2em;
+}
+
+.item_4_box {
+}
+
+.item_5_box {
+height: 1.2em;
+}
+
+.item_6_box {
+	color:#ff9;
+	font-size: 1em;
+}
+
+.item_7_box {
+	width: 80%;
+	padding-left: 4%;
+	text-align:left;
+}
+
+.item_8_box {
+	width:50%;
+	color:#ff9;
+	background-color: #090;
+}
+
+.item_9_box {
+	width: 150px;
+	height: 34px;
+	padding: 26px 0 0 0;
+}
+
+
+
+/* DO NOT TOUCH STYLES BELOW HERE. Designing for mobile first */
+html {	background-color:#210;
+	font-size:100%;	}
+body {	background-color:#dcb;
+	font-size:90%;
+	width:94%; max-width:1280px;
+	margin: 0 auto 1rem auto;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height: 1.4;	}
+header {	background-color:#765; }
+main {
+	display:block;
+	padding: 1rem 1rem 1rem 1rem;
+}
+h1 { font-size:1.4em;
+	font-weight:bold;
+	padding:1rem;
+	color: #fff; }
+
+a  { color:#ddf;text-decoration:underline; }
+a:link  { color:#ddf;  }
+a:visited { color:#bbf; }
+a:hover { color:#fff;   }
+a:focus { color:#fff; }
+a:active { color:#99f; }
+
+.grid-container {
+	padding: 2rem 0 0 0;
+}
+article {
+	margin: 0 1% .5rem 0;
+	position: relative;
+	background-color:#fff;
+	height: 16rem;
+}
+article header {
+	background-color:#fed;
+	padding: 1rem 1rem 1rem 1rem;
+}
+article footer {
+	background-color:#fed;
+	width:100%;
+	font-style:italic;
+	font-size: .8rem;
+	color:#600;
+	position:absolute;
+	bottom:0;
+	min-height:3rem;
+}
+article footer p {
+	padding: 1rem 1rem 1rem 1rem;
+}
+
+/* DO NOT TOUCH. STYLES ALL THE GREEN ITEM BOXES SHARE */
+
+section {
+	background-color:#090;
+	width: 50%; height: 1.2em;
+	font-size: .9em;
+	padding: 4%;
+	color:#eed;
+	text-align:center;
+	margin: 6% auto 6% auto;
+	cursor:pointer;
+}
+
+
+/* DO NOT TOUCH. Define styles that should only happen if the screen is wider */
+@media screen and (min-width:481px){
+	html{
+		font-size:100%;
+	}
+}
+@media screen and (min-width:721px){
+	html{
+		font-size:110%;
+	}
+	.grid-container {
+		display:flex;
+		flex-flow:row wrap;
+		justify-content: left;
+		padding: 2rem 0 0 0;
+	}
+	article {
+		margin: 0 1% .5rem 0;
+		flex:1 1 32%;
+		height: 20rem;
+	}
+	article header {
+		min-height:7rem;
+	}
+	article footer {
+		width:100%;
+	}
+}
+@media screen and (min-width:960px){
+	html{
+		font-size:115%;
+	}
+}
+/* ADD YOUR CODE AT TOP OF PAGE */
