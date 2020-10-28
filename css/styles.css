@@ -37,31 +37,31 @@ opacity: .6;
 .item_6_box {
 	color:#ff9;
 	font-size: 1em;
-	transition: color 1.5s linear 1s;
+	transition: color 1.5s ease-in-out 0.1s, font-size 1.5s ease-in-out 0.1s;
 }
 .item_6_box:hover{
 	color: #f00;
+	font-size: larger;
 }
 .item_7_box {
 	width: 80%;
-	padding-left: 4%;
-	text-align:left;
-	transition: width 2s linear .75s;
-	transition: padding-left 2s linear .75s;
+	padding-left: 5%;
+	transition: padding-left 3s linear 0.1s,width 3s linear 0.1s;
 }
 .item_7_box:hover{
-	width: 90%;
-	padding-left: 10%;
+	Padding-left:50%;
+	width: 35%; 
 }
 .item_8_box {
 	width:50%;
 	color:#ff9;
 	background-color: #090;
+	transition: width 1s ease .1s,;
+	transition: color 2s ease .5s;
 }
 .item_8_box:hover{
+	width:80%;
 	color: aqua;
-	width: 70%;
-	transition: width ease .1s, color 1s ease .5s;
 }
 .item_9_box {
 	width: 150px;
